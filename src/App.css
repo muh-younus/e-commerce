@@ -1,2 +1,84 @@
-main {
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+:root{
+
+  --mainColor: #f57224;
+  --whiteColor:#fff;
+  --blackColor:#000;
+  --lightDark: #222;
+}
+
+body{
+
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+nav{
+
+  width: 100%;
+  height: 75px;
+  line-heigth: 75px;
+  padding: 30px 100px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  
+}
+nav ul{
+
+  list-style: none;
+}
+
+nav ul a{
+
+  text-decoration: none;
+}
+
+.left{
+
+  text-align: left;
+  width: 50%;
+}
+
+.left a{
+
+  font-weight: 700;
+  color: var(--mainColor);
+  font-size: 20px;
+}
+
+
+.right{
+
+  text-align: right;
+  width: 50%;
+}
+
+.shoppingCart i{
+
+  font-size: 20px;
+  margin-right: 15px;
+  color :var(--lightDark)
+}
+
+.cartCount {
+
+  display: inline-block;
+
+  width: 30px;
+  height: 30px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  
+}
+
+
+
